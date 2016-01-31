@@ -1,0 +1,41 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: Helvetica, meiryo;
+}
+
+#content {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#board {
+	position: relative;
+	margin: 20px auto 20px auto;
+	width: 568px;
+	height: 320px;
+	border: 1px solid #333;
+	overflow: hidden;
+}
+
+#board img {
+	position: absolute;
+	border: none;
+}
+
+#guide {
+	font-size: 10px;
+	position: relative;
+	margin: 20px auto 0px auto;
+	width: 400px;
+	text-align: left;
+}
+
+#guide img {
+	width: 50px;
+	height: auto;
+}
